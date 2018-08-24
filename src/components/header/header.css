@@ -1,6 +1,7 @@
 .component-header{
     display: grid;
     grid-template-columns: 80px auto;
+    margin-bottom: 30px;
 }
 .img{
     width: 50px;
@@ -8,6 +9,6 @@
 }
 .header-title{
     line-height: 50px;
-    font-size: 18px;
+    font-size: 25px;
     color: yellowgreen;
 }

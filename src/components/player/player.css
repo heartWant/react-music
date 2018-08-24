@@ -1,0 +1,43 @@
+.player-container{
+    display: grid;
+    grid-template-columns: 500px 80px;
+}
+.musicInfo div{
+    margin-bottom: 10px;
+}
+.musicInfo span{
+    color: blueviolet
+}
+.musicImage img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: rotation 20s linear infinite;
+    box-shadow: 0 0 14px #000000;
+}
+a{  
+    color: tomato;
+    text-decoration:none;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+.prev , .next , .stop{
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    color:white;
+}
+.prev:hover , .next:hover , .stop:hover{
+    cursor: pointer
+}

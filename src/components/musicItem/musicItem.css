@@ -1,7 +1,18 @@
-strong{
-    padding-right: 20px;
-}
-
 li{
     list-style: none;
+    width: 500px;
+    height: 30px; 
+    border: 1px dashed #ccc;
+    line-height: 30px;
+    padding-left: 10px;
+}
+strong{
+    padding-right: 20px;
+    color: blueviolet;
+}
+span{
+    color: royalblue;
+}
+button{
+    margin-left: 100px;
 }
